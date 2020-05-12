@@ -1,1 +1,13 @@
+pipeline {
+ agent {label 'slavessh'}
+ 
+ stages {
+ stage('checkout') {
+  steps {
+ echo "sheetal tested from ssh agent"
+  
+ }
+ }
 
+}
+}
